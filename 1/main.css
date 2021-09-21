@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+ section {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     scroll-snap-align: start;
+ }
+ .one {
+     background-color: blue;
+ }
+ .two {
+    background-color: rgb(82, 196, 67)
+}
+.three {
+    background-color: rgb(230, 92, 243)
+}
+.four {
+    background-color: rgb(225, 228, 55)
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll; 
+    height: 100vh
+}
